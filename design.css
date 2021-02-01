@@ -1,0 +1,140 @@
+html { 
+	background-color: #ba8fbd;}
+
+body {
+	font-family: Tahoma, sans-serif;
+	font-size: 87%;
+}
+/*Favourite Things*/
+header h1{ 
+	padding-top: 10px; 
+	margin: 0%;
+	font-size: 165%;
+	font-weight:normal;}
+/*End of Favourite Things */ 
+
+/*Brief Description paragraph*/
+header p {
+	margin: 0%;
+	padding-bottom: 40px;
+}
+/*End of Description paragraph*/ 
+
+/*Site Navigation*/ 
+.site-nav a{
+	text-decoration: none;
+	color: #3c095e;
+	padding: 10px 20px;
+	border: 2px solid #a982c4;
+	display: block;
+	border-bottom: none;
+}
+
+.site-nav a:hover {
+	background-color:#d2b0e8 ;
+}
+
+.site-nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+.site-nav li{ 
+	list-style: none;
+	float: left;
+	margin-right: 5px; }
+
+
+
+/*End Site Navigation*/ 
+
+h1 {color: #3c095e;} 
+.container {
+	background-color: white; 
+	max-width:940px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	box-sizing:border-box;
+	 }
+
+h2 {color: #3c095e;
+	font-weight: normal;}
+
+.content-area { 
+	border-top: 2px solid #a982c4;
+	border-bottom: 2px solid #a982c4;
+	display: flex;
+	 }
+
+.main-area {
+	width: 66%;
+	float: left;
+	padding-right: 40px;
+	box-sizing: border-box;
+	flex: 1;
+	order: 1;
+}
+
+.side-bar {
+	width: 34%;
+	float: right;
+	background-color:#d2b0e8;
+	padding-left: 40px;
+	padding-right: 40px;
+	box-sizing: border-box;
+	flex: 1;
+	order: 2;
+}
+
+/*Image*/
+
+img {max-width: 50%;
+	height:auto;}
+
+.trumpet { 
+	max-width: 50%; }
+
+.image-banner {
+	position: relative;
+}
+
+.image-banner img{
+	display: block;
+}
+
+.banner-description {
+	position: absolute;
+	left: : 0px;
+	bottom: 0px;
+	color: #b59322;
+	background-color: rgba(000, 0, 0,.5);
+	padding-left: 30px;
+	padding-right: 35px;
+}
+
+.call-outs-container {
+	max-width: 1400px;
+	margin: 40px auto 0 auto;
+	display: flex;
+}
+
+/*End of Image Description*/ 
+
+footer { font-size: 85%;
+	text-align: center; }
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
